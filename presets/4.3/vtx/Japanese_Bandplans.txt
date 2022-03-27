@@ -1,0 +1,126 @@
+#$ TITLE: VTX table settings Japanese Bandplans
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  vtx, vtx table, Japan, Japanese, JP, JA, Bandplans, SA2.0, SA2.1, TRAMP, OpenVTX
+#$ AUTHOR: まっく＠まるちぷろとこる
+#$ DESCRIPTION: このVTX設定およびVTXtable設定は、日本のバンドプランに沿った利用となり、示された周波数以外は法令違反となりますのでご注意ください。
+#$ DESCRIPTION: 日本国内での利用は5,690～5,725MHz、5,730～5,755MHｚ、5,757～5,760MHz、5,762～5,765MHz、5,770～5,810MHzが使用可能です。
+#$ DESCRIPTION: この周波数帯を利用する場合はアマチュア無線の資格を有し国内の技術基準に合致した無線設備を利用、原則、総務大臣の免許を受け無線局を開設することが必要となります。
+#$ DESCRIPTION: 複数のFPVドローンが同一空間で同時に飛行する場合、画像伝送装置同士の更新回避のため使用する周波数の間隔を離す必要があります。
+#$ DESCRIPTION: 同時利用周波数の例: E1(5705MHz) F1(5740MHz) F4(5800MHz)
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
+
+#$ OPTION_GROUP BEGIN: VTX Select, Startup Freq
+
+#$ OPTION BEGIN (CHECKED): BETAFPV M02/M03 - SA2.0
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Happymodel F4FR(FS)Lite/OVX300 - OpenVTX(SA2.1)
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 6 LOWRACE L FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 5
+vtxtable powervalues 10 2 14 20 26
+vtxtable powerlabels 0 RCE 25 100 400
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Happymodel F4FR(FS)Lite/OVX300 - OpenVTX(TRAMP)
+# vtxtable
+vtxtable bands 7
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 6 LOWRACE L FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 7 IMD6 I CUSTOM 5732 5765    0    0    0 5740    0    0
+vtxtable powerlevels 5
+vtxtable powervalues 1 2 25 100 400
+vtxtable powerlabels 0 RCE 25 100 400
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 Nano - SA2.1
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 26 36
+vtxtable powerlabels 25 100 400 MAX
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RUSH FPV - Tiny Tank 5.8ghz
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 23 25
+vtxtable powerlabels 25 100 200 350
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): IRC Tramp NANO & HV
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0 5785    0 5745    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0 5790    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY 5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY 5740    0 5780 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 600
+vtxtable powerlabels 25 100 200 400 600
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Startup Freq E1(5705)
+set vtx_band = 3
+set vtx_channel = 1
+set vtx_power = 1
+set vtx_freq = 5705
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Startup Freq F1(5740)
+set vtx_band = 4
+set vtx_channel = 1
+set vtx_power = 1
+set vtx_freq = 5740
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Startup Freq F4(5800)
+set vtx_band = 4
+set vtx_channel = 4
+set vtx_power = 1
+set vtx_freq = 5800
+#$ OPTION END
+
+#$ OPTION_GROUP END
