@@ -774,7 +774,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/LED_RGB_FreqColor_change.txt",
-      "hash": "cfe0b01adb3809029cf94692ff3986ca0df6fa8e7d81b6cff60065191b7e3c6d",
+      "hash": "22b0d6fdd9eba3a7fc8faecbf3a91eeac038a0273e191b728b8a15f70d15f0db",
       "title": "JP LEDストリップ設定 周波数毎カラー割当 色修正",
       "firmware_version": [
         "4.2",
