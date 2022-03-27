@@ -1,0 +1,21 @@
+#$ TITLE: JP LEDストリップ設定 周波数毎カラー割当 色修正
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: leds
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  LED, led, Freq, Japanese, JP, JA, RGB
+#$ AUTHOR: まっく＠まるちぷろとこる
+#$ DESCRIPTION: 日本では、周波数毎のカラー割当がE1(5705MHz):赤 F1(5740MHz):緑 F4(5800MHz):青 とされています。Betaflight標準ではカラー取り扱いが異なるため、それを補正します。
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: この設定はあくまでもLEDカラーを補正するのみとなります。設定は別途【LEDストリップ】タブ内で実施してください。
+#$ DESCRIPTION: LEDストリップ ＞＞ VTX(周波数毎にカラー割り当て) 【チェック】
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 手動でLEDカラーを可変させたい場合は、キヨっちさんYouTubeを参考としてください。
+#$ DESCRIPTION: プロポのスイッチでLEDの色を変えよう！！プチ情報 58
+#$ DISCUSSION:  https://github.com/betaflight/firmware-presets/pull/31
+
+#LED_RGB_FreqColor_change
+color 3 120,0,255
+color 6 240,0,255

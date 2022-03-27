@@ -276,6 +276,7 @@
       "freestyle",
       "freesytle",
       "freetyle",
+      "Freq",
       "frsky",
       "Garban",
       "ghost",
@@ -305,6 +306,7 @@
       "KarateBrot",
       "launch",
       "launch_mode",
+      "LED",
       "leds",
       "Limon",
       "link",
@@ -353,6 +355,7 @@
       "Redpine",
       "reset",
       "reset statistics",
+      "RGB",
       "RPM",
       "rush",
       "RUSH FPV",
@@ -767,6 +770,28 @@
         "leds"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/leds/LED_RGB_FreqColor_change.txt",
+      "hash": "cfe0b01adb3809029cf94692ff3986ca0df6fa8e7d81b6cff60065191b7e3c6d",
+      "title": "JP LEDストリップ設定 周波数毎カラー割当 色修正",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "LED",
+        "led",
+        "Freq",
+        "Japanese",
+        "JP",
+        "JA",
+        "RGB"
+      ],
+      "author": "まっく＠まるちぷろとこる",
       "priority": 0
     },
     {
