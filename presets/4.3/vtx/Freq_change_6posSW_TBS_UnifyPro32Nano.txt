@@ -1,4 +1,4 @@
-#$ TITLE: 送信機 6posスイッチでの周波数変更 TBS Unify Pro32 Nano
+#$ TITLE: JP 送信機 6posスイッチでの周波数変更 TBS Unify Pro32 Nano
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX

@@ -1,4 +1,4 @@
-#$ TITLE: 送信機の3pos/6posスイッチを用いた周波数変更
+#$ TITLE: JP 送信機の3pos/6posスイッチを用いた周波数変更
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX

@@ -1,4 +1,4 @@
-#$ TITLE: VTX table settings Japanese Bandplans
+#$ TITLE: JP 日本バンドプランでのVTXtable設定一覧
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
@@ -13,7 +13,7 @@
 #$ DESCRIPTION: ----------
 #$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
 
-#$ OPTION_GROUP BEGIN: VTX Select, Startup Freq
+#$ OPTION_GROUP BEGIN: VTX_Select
 
 #$ OPTION BEGIN (CHECKED): BETAFPV M02/M03 - SA2.0
 # vtxtable
@@ -100,27 +100,6 @@ vtxtable band 5 RACEBAND R FACTORY    0    0    0    0    0    0    0    0
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 600
 vtxtable powerlabels 25 100 200 400 600
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Startup Freq E1(5705)
-set vtx_band = 3
-set vtx_channel = 1
-set vtx_power = 1
-set vtx_freq = 5705
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): Startup Freq F1(5740)
-set vtx_band = 4
-set vtx_channel = 1
-set vtx_power = 1
-set vtx_freq = 5740
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Startup Freq F4(5800)
-set vtx_band = 4
-set vtx_channel = 4
-set vtx_power = 1
-set vtx_freq = 5800
 #$ OPTION END
 
 #$ OPTION_GROUP END

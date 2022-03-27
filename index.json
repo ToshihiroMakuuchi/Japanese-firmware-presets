@@ -2663,8 +2663,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_CrazybeeF4_lite.txt",
-      "hash": "1fa728b9a0615d970904b904864d94a764488b4b83fff386cd0652d876986ebe",
-      "title": "送信機 6posスイッチでの周波数変更 CrazybeeF4FR(FS)lite",
+      "hash": "b9476f0350b11b37d0200b0ca40b581bb915438f243a82953361826b7e80a084",
+      "title": "JP 送信機 6posスイッチでの周波数変更 CrazybeeF4FR(FS)lite",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2690,8 +2690,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_IRC_TrampNano.txt",
-      "hash": "74ffe6525ba3331a53370b06ba6ce636a785b61b3cc75043bbc9460389f2cedd",
-      "title": "送信機 6posスイッチでの周波数変更 for IRC Tramp Nano & HV",
+      "hash": "0968a29bc1033c3a8a8de0a5e8cba5c39bf85e920e334b2bc4aa93b27a32e5ce",
+      "title": "JP 送信機 6posスイッチでの周波数変更 IRC Tramp Nano & HV",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2716,8 +2716,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_M03.txt",
-      "hash": "434e21c10b3dc7ef75f0ae3648416d15443d627dbbd7632ae650d8604fac49a3",
-      "title": "送信機 6posスイッチでの周波数変更 for BETAFPV M02/M03",
+      "hash": "ef159287a5df521cc3e20e175beea3b84761a660d87f6364fa149a3a9d7f9766",
+      "title": "JP 送信機 6posスイッチでの周波数変更 BETAFPV M02/M03",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2743,8 +2743,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_OVX300.txt",
-      "hash": "43c4eadff5096c88161fd413f611f63b5ea30c667f46546724d38d0b0d5f2ad9",
-      "title": "送信機 6posスイッチでの周波数変更 for Happymodel OVX300",
+      "hash": "f3942802a8d9fb7436ffb9a7d47a85fa44a60fcfd0ab2bd649ce886b7c135ced",
+      "title": "JP 送信機 6posスイッチでの周波数変更 Happymodel OVX300",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2768,8 +2768,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_TBS_UnifyPro32Nano.txt",
-      "hash": "1265bde468a8a609a0a311f8518ed8fc5081e0092c6c6a50e0a49d2e32f72cb6",
-      "title": "送信機 6posスイッチでの周波数変更 TBS Unify Pro32 Nano",
+      "hash": "c73a436bb6f2115e16bebb38aeaf64e9044fe2698c4e838534a0fb793c384431",
+      "title": "JP 送信機 6posスイッチでの周波数変更 TBS Unify Pro32 Nano",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2796,8 +2796,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_TinyTank.txt",
-      "hash": "c2422061b4fc9b9e052874a3fc0c9d41a8bec30f887ff9fe9e641498a7c503a8",
-      "title": "送信機 6posスイッチでの周波数変更 for RUSH FPV Tiny Tank",
+      "hash": "b3e3e7f04633208c8c6db1c7f50fab7b828680e856c2be346658dcecb75c054b",
+      "title": "JP 送信機 6posスイッチでの周波数変更 RUSH FPV Tiny Tank",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2821,8 +2821,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_with_3-6pos_SW.txt",
-      "hash": "3cc7bf669ee079bcbd7ca4c409508ae6ed78f418aed6e948dcaec4fa8038bfb7",
-      "title": "送信機の3pos/6posスイッチを用いた周波数変更",
+      "hash": "87d7522e400f069034b54f56e88f6ab3b5b98f74aef37d4e3e0b5cf2f0f2c30b",
+      "title": "JP 送信機の3pos/6posスイッチを用いた周波数変更",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2868,8 +2868,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Japanese_Bandplans.txt",
-      "hash": "440a96a9966d15812ee4a5fecd0a4a779a56b184ef2c695eabb4e95d1b229342",
-      "title": "VTX table settings Japanese Bandplans",
+      "hash": "5d0808a04656a83096ad4194bd413747ae128ab53cc493913966cadfc93489ec",
+      "title": "JP 日本バンドプランでのVTXtable設定一覧",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2978,6 +2978,32 @@
         "tx800"
       ],
       "author": "NemesisXB",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Startup_Freq.txt",
+      "hash": "a40de1e14d28e54fe38c0d62bb9e0b287b1756f5588566c554425321e6a0848b",
+      "title": "JP 起動時のVTX周波数 E1(5705) F1(5740) F4(5800)",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Bandplans",
+        "SA2.0",
+        "SA2.1",
+        "TRAMP",
+        "OpenVTX"
+      ],
+      "author": "まっく＠まるちぷろとこる",
       "priority": 1000000
     },
     {
