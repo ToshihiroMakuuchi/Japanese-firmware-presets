@@ -5,7 +5,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: S1, S2, freq, powere, vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S
 #$ AUTHOR: GhostShip ⌘ JiJi1RIDer
-#$ AUTHOR: まっく＠まるちぷろとこる
 #$ DESCRIPTION: 送信機のS1/S2スイッチを用いて、VTX周波数の変更および出力変更を可能にします。
 #$ DESCRIPTION: S1スイッチ(左側:E1 5705、中央:F1 5740、右側:F4 5800)
 #$ DESCRIPTION: S2スイッチ(左側:出力＝1、中央:出力＝2、右側:出力＝3)

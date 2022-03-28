@@ -160,6 +160,7 @@
       "Feisar",
       "FPVian",
       "Garban",
+      "GhostShip ⌘ JiJi1RIDer",
       "IllusionFpv",
       "Ivan Efimov (Limon)",
       "Joshua Bardwell",
@@ -189,6 +190,7 @@
       "3.5in",
       "3\"",
       "3in",
+      "3pos",
       "4in",
       "4S",
       "5 In",
@@ -204,6 +206,7 @@
       "65mm",
       "666Hz",
       "6in",
+      "6pos",
       "6S",
       "7 Inch",
       "7\"",
@@ -315,8 +318,6 @@
       "Long Range",
       "M02",
       "M03",
-      "M2",
-      "M3",
       "mamba",
       "meteor",
       "MinChan",
@@ -337,6 +338,8 @@
       "OVX303",
       "partial",
       "pid",
+      "power",
+      "powere",
       "Pro32",
       "profile",
       "Pure Race",
@@ -363,6 +366,8 @@
       "rushfpv",
       "russia",
       "Rx",
+      "S1",
+      "S2",
       "sa",
       "SA 2.0",
       "SA 2.0 lite",
@@ -381,6 +386,7 @@
       "some",
       "spec",
       "speedybee",
+      "Startup",
       "stats",
       "suagrK",
       "sugarK",
@@ -774,7 +780,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/LED_RGB_FreqColor_change.txt",
-      "hash": "22b0d6fdd9eba3a7fc8faecbf3a91eeac038a0273e191b728b8a15f70d15f0db",
+      "hash": "5d873ff7527fb18085b581588ee9e21f1faa8f1d63bc83ef45e66351a5907515",
       "title": "JP LEDストリップ設定 周波数毎カラー割当 色修正",
       "firmware_version": [
         "4.2",
@@ -789,6 +795,8 @@
         "Japanese",
         "JP",
         "JA",
+        "Japan",
+        "Japanese",
         "RGB"
       ],
       "author": "まっく＠まるちぷろとこる",
@@ -2687,8 +2695,172 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_CrazybeeF4_lite.txt",
+      "hash": "2dc8d7d2bb6ab532f16aa06266d7e977c8de5b275310ee0f80a399459d5ae686",
+      "title": "JP 送信機 3posスイッチでの周波数変更 CrazybeeF4FR(FS)lite",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "Crazybee",
+        "F4FR lite",
+        "F4FS lite",
+        "Happymodel"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_IRC_TrampNano.txt",
+      "hash": "60034e13fee38dbaece5a0131f865393ae6e4c6d370abd6bad85343de857d0d8",
+      "title": "JP 送信機 3posスイッチでの周波数変更 IRC Tramp Nano & HV",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "Tramp",
+        "Nano",
+        "IRC"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_M03.txt",
+      "hash": "f71413f5d340491d369bca2e28fae4f271e502b4276fb385a2a482b23b640721",
+      "title": "JP 送信機 3posスイッチでの周波数変更 BETAFPV M02/M03",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "BETAFPV",
+        "M02",
+        "M03",
+        "SA2.0"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_OVX300 .txt",
+      "hash": "b2ad9117232c91560a7c0ebd0db59d7e7667269404a7dd776e00f51379c541dc",
+      "title": "JP 送信機 3posスイッチでの周波数変更 Happymodel OVX300",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "OVX300",
+        "Happymodel"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_TBS_UnifyPro32Nano.txt",
+      "hash": "a60313e88c4d77accdad4478d6643cac8ee066b238c3474988a234e84f8a9d17",
+      "title": "JP 送信機 3posスイッチでの周波数変更 TBS Unify Pro32 Nano",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "Unify",
+        "Pro32",
+        "Nano",
+        "TBS",
+        "SA2.1"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Freq_change_3posSW_TinyTank.txt",
+      "hash": "7ca66647dfe19bb368b443a965aad1d88feb6d86c70c29f46876707ebbc708af",
+      "title": "JP 送信機 3posスイッチでの周波数変更 RUSH FPV Tiny Tank",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3pos",
+        "vtx",
+        "vtx table",
+        "Japan",
+        "Japanese",
+        "JP",
+        "JA",
+        "Jumper-T16",
+        "TX16S",
+        "Tiny Tank",
+        "RUSH FPV"
+      ],
+      "author": "まっく＠まるちぷろとこる",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_CrazybeeF4_lite.txt",
-      "hash": "b9476f0350b11b37d0200b0ca40b581bb915438f243a82953361826b7e80a084",
+      "hash": "882736528cab63b64f3b934723c6325ebcf8535d3204283ec0e3aa807f42dcf2",
       "title": "JP 送信機 6posスイッチでの周波数変更 CrazybeeF4FR(FS)lite",
       "firmware_version": [
         "4.2",
@@ -2697,6 +2869,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2715,7 +2888,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_IRC_TrampNano.txt",
-      "hash": "0968a29bc1033c3a8a8de0a5e8cba5c39bf85e920e334b2bc4aa93b27a32e5ce",
+      "hash": "5c2305937ec3cc8433394f6921eb86ceb061c3ab6918089324af0662b4c2737c",
       "title": "JP 送信機 6posスイッチでの周波数変更 IRC Tramp Nano & HV",
       "firmware_version": [
         "4.2",
@@ -2724,6 +2897,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2741,7 +2915,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_M03.txt",
-      "hash": "ef159287a5df521cc3e20e175beea3b84761a660d87f6364fa149a3a9d7f9766",
+      "hash": "bd876aff41681278c0f10f4a06c5d6d79060e0c81a486a886daad70ae289af4e",
       "title": "JP 送信機 6posスイッチでの周波数変更 BETAFPV M02/M03",
       "firmware_version": [
         "4.2",
@@ -2750,6 +2924,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2768,7 +2943,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_OVX300.txt",
-      "hash": "f3942802a8d9fb7436ffb9a7d47a85fa44a60fcfd0ab2bd649ce886b7c135ced",
+      "hash": "15059204b187b78a19e48cf7709d8b105425d6a74efc45fd4268d7184d2a32de",
       "title": "JP 送信機 6posスイッチでの周波数変更 Happymodel OVX300",
       "firmware_version": [
         "4.2",
@@ -2777,6 +2952,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2793,7 +2969,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_TBS_UnifyPro32Nano.txt",
-      "hash": "c73a436bb6f2115e16bebb38aeaf64e9044fe2698c4e838534a0fb793c384431",
+      "hash": "d20796ca52173add153c8107d0c082d6e7d58cee6b7bf47c9ae2ed0f3300ba07",
       "title": "JP 送信機 6posスイッチでの周波数変更 TBS Unify Pro32 Nano",
       "firmware_version": [
         "4.2",
@@ -2802,6 +2978,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2821,7 +2998,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Freq_change_6posSW_TinyTank.txt",
-      "hash": "b3e3e7f04633208c8c6db1c7f50fab7b828680e856c2be346658dcecb75c054b",
+      "hash": "e776e175862b3f27e69d56c871c712ecee60f58a4c3b8bb782dca91a5f4b972c",
       "title": "JP 送信機 6posスイッチでの周波数変更 RUSH FPV Tiny Tank",
       "firmware_version": [
         "4.2",
@@ -2830,6 +3007,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "6pos",
         "vtx",
         "vtx table",
         "Japan",
@@ -2845,9 +3023,9 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.3/vtx/Freq_change_with_3-6pos_SW.txt",
-      "hash": "87d7522e400f069034b54f56e88f6ab3b5b98f74aef37d4e3e0b5cf2f0f2c30b",
-      "title": "JP 送信機の3pos/6posスイッチを用いた周波数変更",
+      "fullPath": "presets/4.3/vtx/Freq_change_SliderS1&S2_SW.txt",
+      "hash": "f3df6621b070cc722174cda6d5548402ca6f1a4c0e4c700364d074f3e98a06b4",
+      "title": "JP 送信機 S1/S2スイッチを用いた周波数変更例",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2855,6 +3033,10 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "S1",
+        "S2",
+        "freq",
+        "powere",
         "vtx",
         "vtx table",
         "Japan",
@@ -2862,12 +3044,9 @@
         "JP",
         "JA",
         "Jumper-T16",
-        "TX16S",
-        "BETAFPV",
-        "M2",
-        "M3"
+        "TX16S"
       ],
-      "author": "まっく＠まるちぷろとこる",
+      "author": "GhostShip ⌘ JiJi1RIDer",
       "priority": 1000000
     },
     {
@@ -2893,7 +3072,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Japanese_Bandplans.txt",
-      "hash": "5d0808a04656a83096ad4194bd413747ae128ab53cc493913966cadfc93489ec",
+      "hash": "13ece8a047ef052913ebbd1279910535279ff7331b5f29b9aa614a6d175997fe",
       "title": "JP 日本バンドプランでのVTXtable設定一覧",
       "firmware_version": [
         "4.2",
@@ -2902,6 +3081,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "freq",
         "vtx",
         "vtx table",
         "Japan",
@@ -3007,7 +3187,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Startup_Freq.txt",
-      "hash": "a40de1e14d28e54fe38c0d62bb9e0b287b1756f5588566c554425321e6a0848b",
+      "hash": "05846d593e9b778438effec2b1f87ac90c9cd3c348e0b2cd238a26df31e6c0c5",
       "title": "JP 起動時のVTX周波数 E1(5705) F1(5740) F4(5800)",
       "firmware_version": [
         "4.2",
@@ -3016,8 +3196,10 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
+        "Startup",
+        "freq",
+        "power",
         "vtx",
-        "vtx table",
         "Japan",
         "Japanese",
         "JP",
