@@ -1,104 +1,70 @@
-#$ TITLE: JP 送信機の3pos/6posスイッチを用いた周波数変更
+#$ TITLE: JP 送信機 3posスイッチでの周波数変更 BETAFPV M02/M03
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S, BETAFPV, M2, M3
+#$ KEYWORDS: 3pos, vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S, BETAFPV, M02, M03, SA2.0
 #$ AUTHOR: まっく＠まるちぷろとこる
-#$ DESCRIPTION: 送信機の3pos/6posのスイッチも用いて、素早くVTX周波数の変更を可能にします。
+#$ DESCRIPTION: 送信機の3posのスイッチも用いて、素早くVTX周波数の変更を可能にします。
 #$ DESCRIPTION: それによりFPVレースや飛行練習会などでのノイズ干渉や変更不具合、トラブル等を回避することが可能です。
 #$ DESCRIPTION: 一般的に利用される周波数3波をスイッチに割り当てします。: E1(5705MHz) F1(5740MHz) F4(5800MHz)
 #$ DESCRIPTION: ----------
+#$ DESCRIPTION: 
 #$ DESCRIPTION: これらは日本のバンドプランに沿った利用となり、示された周波数以外は法令違反となりますのでご注意ください。
 #$ DESCRIPTION: 日本国内での利用は5,690～5,725MHz、5,730～5,755MHｚ、5,757～5,760MHz、5,762～5,765MHz、5,770～5,810MHzが使用可能です。
 #$ DESCRIPTION: この周波数帯を利用する場合はアマチュア無線の資格を有し国内の技術基準に合致した無線設備を利用、原則、総務大臣の免許を受け無線局を開設することが必要となります。
 #$ DESCRIPTION: ----------
+#$ DESCRIPTION: 
 #$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
 
 #$ OPTION_GROUP BEGIN: VTX_freq_change
 
-#$ OPTION BEGIN (CHECKED): 3POS (AUX3) for BETAFPV M2/M3 (25mW)
+#$ OPTION BEGIN (CHECKED): 3POS (AUX3) BETAFPV M2/M3 (25mW)
 vtx 0 2 3 1 0 950 1300
 vtx 1 2 4 1 0 1300 1700
 vtx 2 2 4 4 0 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX3) for BETAFPV M2/M3 (200mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX3) BETAFPV M2/M3 (200mW)
 vtx 0 2 3 1 2 950 1300
 vtx 1 2 4 1 2 1300 1700
 vtx 2 2 4 4 2 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX4) for BETAFPV M2/M3 (25mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX4) BETAFPV M2/M3 (25mW)
 vtx 0 3 3 1 0 950 1300
 vtx 1 3 4 1 0 1300 1700
 vtx 2 3 4 4 0 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX4) for BETAFPV M2/M3 (200mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX4) BETAFPV M2/M3 (200mW)
 vtx 0 3 3 1 2 950 1300
 vtx 1 3 4 1 2 1300 1700
 vtx 2 3 4 4 2 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX5) for BETAFPV M2/M3 (25mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX5) BETAFPV M2/M3 (25mW)
 vtx 0 4 3 1 0 950 1300
 vtx 1 4 4 1 0 1300 1700
 vtx 2 4 4 4 0 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX5) for BETAFPV M2/M3 (200mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX5) BETAFPV M2/M3 (200mW)
 vtx 0 4 3 1 2 950 1300
 vtx 1 4 4 1 2 1300 1700
 vtx 2 4 4 4 2 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX6) for BETAFPV M2/M3 (25mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX6) BETAFPV M2/M3 (25mW)
 vtx 0 5 3 1 0 950 1300
 vtx 1 5 4 1 0 1300 1700
 vtx 2 5 4 4 0 1700 2050
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3POS (AUX6) for BETAFPV M2/M3 (200mW)
+#$ OPTION BEGIN (UNCHECKED): 3POS (AUX6) BETAFPV M2/M3 (200mW)
 vtx 0 5 3 1 2 950 1300
 vtx 1 5 4 1 2 1300 1700
 vtx 2 5 4 4 2 1700 2050
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6POS (AUX3) for BETAFPV M2/M3 (25mW/200mW)
-vtx 0 2 3 1 0 950 1100
-vtx 1 2 4 1 0 1100 1300
-vtx 2 2 4 4 0 1300 1500
-vtx 3 2 3 1 2 1500 1700
-vtx 4 2 4 1 2 1700 1900
-vtx 5 2 4 4 2 1900 2050
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6POS (AUX4) for BETAFPV M2/M3 (25mW/200mW)
-vtx 0 3 3 1 0 950 1100
-vtx 1 3 4 1 0 1100 1300
-vtx 2 3 4 4 0 1300 1500
-vtx 3 3 3 1 2 1500 1700
-vtx 4 3 4 1 2 1700 1900
-vtx 5 3 4 4 2 1900 2050
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6POS (AUX5) for BETAFPV M2/M3 (25mW/200mW)
-vtx 0 4 3 1 0 950 1100
-vtx 1 4 4 1 0 1100 1300
-vtx 2 4 4 4 0 1300 1500
-vtx 3 4 3 1 2 1500 1700
-vtx 4 4 4 1 2 1700 1900
-vtx 5 4 4 4 2 1900 2050
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6POS (AUX6) for BETAFPV M2/M3 (25mW/200mW)
-vtx 0 5 3 1 0 950 1100
-vtx 1 5 4 1 0 1100 1300
-vtx 2 5 4 4 0 1300 1500
-vtx 3 5 3 1 2 1500 1700
-vtx 4 5 4 1 2 1700 1900
-vtx 5 5 4 4 2 1900 2050
 #$ OPTION END
 
 #$ OPTION_GROUP END

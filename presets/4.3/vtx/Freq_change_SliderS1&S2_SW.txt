@@ -1,41 +1,30 @@
-#$ TITLE: JP 起動時のVTX周波数 E1(5705) F1(5740) F4(5800)
+#$ TITLE: JP 送信機 S1/S2スイッチを用いた周波数変更例
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Startup, freq, power, vtx, Japan, Japanese, JP, JA, Bandplans, SA2.0, SA2.1, TRAMP, OpenVTX
+#$ KEYWORDS: S1, S2, freq, powere, vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S
+#$ AUTHOR: GhostShip ⌘ JiJi1RIDer
 #$ AUTHOR: まっく＠まるちぷろとこる
-#$ DESCRIPTION: 起動時のVTX周波数を指定します。E1(5705MHz) F1(5740MHz) F4(5800MHz)
+#$ DESCRIPTION: 送信機のS1/S2スイッチを用いて、VTX周波数の変更および出力変更を可能にします。
+#$ DESCRIPTION: S1スイッチ(左側:E1 5705、中央:F1 5740、右側:F4 5800)
+#$ DESCRIPTION: S2スイッチ(左側:出力＝1、中央:出力＝2、右側:出力＝3)
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ※出力設定は【vtxtable powervalue】値により異なります。
 #$ DESCRIPTION: ----------
 #$ DESCRIPTION: 
-#$ DESCRIPTION: このVTX設定およびVTXtable設定は、日本のバンドプランに沿った利用となり、示された周波数以外は法令違反となりますのでご注意ください。
+#$ DESCRIPTION: これらは日本のバンドプランに沿った利用となり、示された周波数以外は法令違反となりますのでご注意ください。
 #$ DESCRIPTION: 日本国内での利用は5,690～5,725MHz、5,730～5,755MHｚ、5,757～5,760MHz、5,762～5,765MHz、5,770～5,810MHzが使用可能です。
 #$ DESCRIPTION: この周波数帯を利用する場合はアマチュア無線の資格を有し国内の技術基準に合致した無線設備を利用、原則、総務大臣の免許を受け無線局を開設することが必要となります。
 #$ DESCRIPTION: ----------
 #$ DESCRIPTION: 
 #$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
+#$ DISCUSSION: https://twitter.com/_GhostShip_/status/1508060610210443276?s=20&t=t-4N5JrmO_bVvBt5p_THjw
 
-#$ OPTION_GROUP BEGIN: Startup Freq
-
-#$ OPTION BEGIN (UNCHECKED): Startup Freq E1(5705)
-set vtx_band = 3
-set vtx_channel = 1
-set vtx_power = 1
-set vtx_freq = 5705
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): Startup Freq F1(5740)
-set vtx_band = 4
-set vtx_channel = 1
-set vtx_power = 1
-set vtx_freq = 5740
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Startup Freq F4(5800)
-set vtx_band = 4
-set vtx_channel = 4
-set vtx_power = 1
-set vtx_freq = 5800
-#$ OPTION END
-
-#$ OPTION_GROUP END
+# S1(AUX7) Freq Select & S2(AUX8) vtx_power
+vtx 0 6 3 1 0 950 1300
+vtx 1 6 4 1 0 1300 1700
+vtx 2 6 4 4 0 1700 2050
+vtx 3 7 0 0 1 950 1300
+vtx 4 7 0 0 2 1300 1700
+vtx 5 7 0 0 3 1700 2050

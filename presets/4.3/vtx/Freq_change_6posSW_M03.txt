@@ -3,16 +3,18 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S, BETAFPV, M02, M03, SA2.0
+#$ KEYWORDS: 6pos, vtx, vtx table, Japan, Japanese, JP, JA, Jumper-T16, TX16S, BETAFPV, M02, M03, SA2.0
 #$ AUTHOR: まっく＠まるちぷろとこる
 #$ DESCRIPTION: 送信機の6posのスイッチも用いて、素早くVTX周波数の変更を可能にします。
 #$ DESCRIPTION: それによりFPVレースや飛行練習会などでのノイズ干渉や変更不具合、トラブル等を回避することが可能です。
 #$ DESCRIPTION: 一般的に利用される周波数3波をスイッチに割り当てします。: E1(5705MHz) F1(5740MHz) F4(5800MHz)
 #$ DESCRIPTION: ----------
+#$ DESCRIPTION: 
 #$ DESCRIPTION: これらは日本のバンドプランに沿った利用となり、示された周波数以外は法令違反となりますのでご注意ください。
 #$ DESCRIPTION: 日本国内での利用は5,690～5,725MHz、5,730～5,755MHｚ、5,757～5,760MHz、5,762～5,765MHz、5,770～5,810MHzが使用可能です。
 #$ DESCRIPTION: この周波数帯を利用する場合はアマチュア無線の資格を有し国内の技術基準に合致した無線設備を利用、原則、総務大臣の免許を受け無線局を開設することが必要となります。
 #$ DESCRIPTION: ----------
+#$ DESCRIPTION: 
 #$ DESCRIPTION: このプリセットで提供される情報は、金銭上の利益なく、専ら個人的な興味により行う自己訓練、通信および技術研究のための目的のみとなります。Betaflightは、ここで提供されるいかなる情報の使用の安全性または合法性に関して示すものではありません。Betaflightソフトウェア利用者は、関連するすべての法令および規制に準拠、該当していることを確認するすべての責任および義務を負うものと致します。
 
 #$ OPTION_GROUP BEGIN: VTX_freq_change
