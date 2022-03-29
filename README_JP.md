@@ -2,14 +2,14 @@
 
 プリセットは、Betaflightフライトコントローラにおけるファームウェア設定をより簡単に行う方法です。
 
-- [イントロダクション](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#イントロダクション)
-- [プリセットの適用と利用方法](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#プリセットの適用と利用方法)
-- [プリセット開発者へのフィードバック](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#プリセット開発者へのフィードバック)
-- [カスタマイズ・ソース](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#カスタマイズ・ソース)
-- [新規プリセットの作成](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#新規プリセットの作成)
-- [既存プリセットの修正](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#既存プリセットの修正)
-- [プリセット仕様](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#プリセット仕様)
-- [クレジット](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/README_JP.md#クレジット)
+- [イントロダクション](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#イントロダクション)
+- [プリセットの適用と利用方法](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#プリセットの適用と利用方法)
+- [プリセット開発者へのフィードバック](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#プリセット開発者へのフィードバック)
+- [カスタマイズ・ソース](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#カスタマイズ・ソース)
+- [新規プリセットの作成](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#新規プリセットの作成)
+- [既存プリセットの修正](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#既存プリセットの修正)
+- [プリセット仕様](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#プリセット仕様)
+- [クレジット](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#クレジット)
 
 ## イントロダクション
 
