@@ -66,7 +66,7 @@ Betaflightプリセットシステムは、ユーザがファームウェア設�
 
 カスタム・プリセットソースを使用する場合:
 - Betaflight Configuratorにて、【プリセット】タブ ⇒ プリセットソースをクリックする
-- URL項目にて `https://github.com/sourceGithubAccountName/firmware-presets/` に設定する
+- URL項目にて `https://github.com/sourceGithubAccountName/firmware-presets/`` に設定する
 - GitHubブランチ項目に、プッシュしたブランチ名を設定する
 
 エンドユーザは誰でも貴方が提供するカスタムプリセットを適用できます。
