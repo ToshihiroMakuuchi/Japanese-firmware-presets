@@ -1,3 +1,12 @@
+# Betaflight 日本語プリセット (まっくさんプリセット)
+
+今回、Betaflight公式となる @limonspb 氏のリポジトリをフォークし日本語でプリセットを提供致します。  
+基本的には公式プリセットは定期的にマージしていく予定ですが、日本のユーザ向けに独自のプリセットを積極的に公開してまいります。
+まずはBetaflight Configurator 10.8.0(-RC3)をインストールし、下記手順で設定いただければ幸いです。
+
+## - [【まっくさんプリセット】の設定方法](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/wiki/%E3%80%90%E3%81%BE%E3%81%A3%E3%81%8F%E3%81%95%E3%82%93%E3%83%97%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E3%80%91%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)
+
+
 # ファームウェアプリセット
 
 プリセットは、Betaflightフライトコントローラにおけるファームウェア設定をより簡単に行う方法です。
@@ -10,15 +19,6 @@
 - [既存プリセットの修正](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#既存プリセットの修正)
 - [プリセット仕様](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#プリセット仕様)
 - [クレジット](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/blob/ToshihiroMakuuchi/Japanese-presets/README_JP.md#クレジット)
-
-
-# Betaflight 日本語プリセット (まっくさんプリセット)
-
-今回、Betaflight公式となる @limonspb 氏のリポジトリをフォークし日本語でプリセットを提供致します。  
-基本的には公式プリセットは定期的にマージしていく予定ですが、日本のユーザ向けに独自のプリセットを積極的に公開してまいります。
-まずはBetaflight Configurator 10.8.0(-RC3)をインストールし、下記手順で設定いただければ幸いです。
-
-- [【まっくさんプリセット】の設定方法](https://github.com/ToshihiroMakuuchi/Japanese-firmware-presets/wiki/%E3%80%90%E3%81%BE%E3%81%A3%E3%81%8F%E3%81%95%E3%82%93%E3%83%97%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E3%80%91%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)
 
 
 ## イントロダクション
